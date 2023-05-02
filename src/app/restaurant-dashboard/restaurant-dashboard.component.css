@@ -1,0 +1,10 @@
+.frontPage{
+    background-image: url('/assets/Resto.png');
+}
+
+
+@media (max-width:800px) {
+    .action{
+        margin-top: 5px;
+    }
+}

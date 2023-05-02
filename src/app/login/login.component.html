@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary p-3">
+    <a class="navbar-brand fw-bold" href="#">Restaurant Login</a>
+</nav>
+
+
+
+
+<form [formGroup]="loginForm" class="login-form" action="/login" (ngSubmit)="login()">
+    <h2>Login Form</h2>
+    <label for="email">Email:</label>
+    <input type="text" formControlName="user_email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" formControlName="user_password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+    <p class="mt-2" style="color: red;">New User? Click to <a routerLink="/signup">Signup!</a> </p>
+
+</form>
