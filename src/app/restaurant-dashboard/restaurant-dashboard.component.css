@@ -2,6 +2,14 @@
     background-image: url('/assets/Resto.png');
 }
 
+.restoName{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#offcanvasBottom {
+    height: 90%;
+}
 
 @media (max-width:800px) {
     .action{

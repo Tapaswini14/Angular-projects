@@ -6,17 +6,22 @@ import { RestaurantDashboardComponent } from './restaurant-dashboard/restaurant-
 
 const routes: Routes = [
   {
-    path:'', redirectTo:'login', pathMatch:'full'
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full',
   },
   {
-    path: 'login', component: LoginComponent
+    path: 'login',
+    component: LoginComponent,
   },
   {
-    path:'signup', component: SignupComponent
+    path: 'signup',
+    component: SignupComponent,
   },
   {
-    path:'restaurant', component: RestaurantDashboardComponent
-  }
+    path: 'restaurant',
+    component: RestaurantDashboardComponent,
+  },
 ];
 
 @NgModule({
